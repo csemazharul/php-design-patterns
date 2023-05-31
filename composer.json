@@ -1,0 +1,16 @@
+{
+    "name": "mazed/designpatterns",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Mazed\\DesignPatterns\\": "./src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Md Mazharul Islam",
+            "email": "54615735+csemazharul@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}
