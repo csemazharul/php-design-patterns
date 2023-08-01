@@ -2,9 +2,10 @@
 require_once __DIR__ . '/../../vendor/autoload.php';
 
 use Mazed\DesignPatterns\Repository\Class\BlogApplication;
+use Mazed\DesignPatterns\Repository\Class\MongoDBArticleRepository;
 use Mazed\DesignPatterns\Repository\Class\MySQLArticleRepository;
 
-$blog = new BlogApplication(new MySQLArticleRepository);
+$blog = new BlogApplication(new MongoDBArticleRepository);
 
 $article = $blog->createArticle('My first blog post', 'Hello world!');
 
