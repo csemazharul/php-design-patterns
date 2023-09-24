@@ -14,7 +14,7 @@ require_once __DIR__ . '/../../vendor/autoload.php';
 $gatewayA = new GatewayA();
 $gatewayB = new GatewayB();
 
-// Create adapters for the gateways
+// Create adapters for the gateway
 $adapterA = new GatewayAAdapter($gatewayA);
 $adapterB = new GatewayBAdapter($gatewayB);
 
