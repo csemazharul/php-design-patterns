@@ -1,5 +1,6 @@
 {
     "name": "mazed/designpatterns",
+    "description": "PHP design patterns",
     "type": "project",
     "autoload": {
         "psr-4": {
